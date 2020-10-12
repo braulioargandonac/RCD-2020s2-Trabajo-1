@@ -1,20 +1,22 @@
-<div class="img-header">
+<br><br><br><br><br>
+<div class="container card cardinicio mt-5 pt-3">
     <div class="texto">
-        <h1><b>WEB SERVICE REST</h1>
+        <h1>WEB SERVICE REST</h1>
     </div>
-    <div>
-        <ul>
-            <li><a>Integrantes:</a></li>
-            <li><a>Felipe Gonzalez Duarte</a></li>
-            <li><a>Fabian Urriola Poisson</a></li>
-            <li><a>Braulio Argandoña Carrasco</a></li>
-            <li><a>Rodrigo Aguirre Rodriguez</a></li>
-        </ul>
-    </div>
-    <div>
-        <ul>
-            <li><a>Profesor: Geraud Manouvrier Elespuru</a></li>
-            <li><a>Asignatura: Redes y comunicación de datos</a></li>
-            <li><a>Sección 411</a></li>
+    <div class="container">
+        <div>
+            <h4><b>Profesor: </b>Geraud Manouvrier Elespuru</h4>
+            <h4><b>Asignatura: </b>Redes y comunicación de datos.</h4>
+            <h4><b>Sección: </b>411</h4>
+        </div>
+        <h4><b>Integrantes:</b></h4>
+        <div class="ml-4">
+            <ul>
+                <li>Felipe Gonzalez Duarte</li>
+                <li>Fabian Urriola Poisson</li>
+                <li>Braulio Argandoña Carrasco</li>
+                <li>Rodrigo Aguirre Rodriguez</li>
+            </ul>
+        </div>
     </div>
 </div>

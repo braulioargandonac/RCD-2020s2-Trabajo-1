@@ -8,7 +8,7 @@
     <!-- Style -->
 	<link rel="stylesheet" href="public/css/estilos.css">
 	<link rel="stylesheet" href="public/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> <!-- HAY QUE DESCARGAR ESTAS FUENTES -->
  </head>
 <body>
 	

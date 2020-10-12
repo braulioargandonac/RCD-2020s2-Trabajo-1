@@ -1,3 +1,20 @@
+@font-face {
+    font-family: "FredokaOne";
+    src: url("../fonts/FredokaOne-Regular.ttf");
+}
+
+.fredoka{
+    font-family: "FredokaOne";
+}
+
+
+body{
+    background-image: url('../img/fondo1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+  }
+
 .forma{
     float: right;
 }
@@ -14,7 +31,7 @@
      left: 0;
      width: 100%;
      height: 60px;
-     background: #fff;
+     background: #0D0D0D;
  
      display: flex;
      justify-content: space-between;
@@ -22,15 +39,21 @@
      z-index:1;
  }
  .menu h1 > a{
-     margin-left: 70px;
+     margin-left: 0%;
+     padding-left: 0%;
      text-decoration: none;
-     color: #000;
-
  }
+
+ a:hover {
+    text-decoration:none !important;
+    color: #fff !important;
+}
+
  .menu .btn-menu{
-     margin-right:70px;
+     margin-left:70px;
      font-size: 30px;
      cursor: pointer;
+     color: #fff;
    
  }
  .navegation{
@@ -39,7 +62,8 @@
      left: -100%;
      width: 100%;
      height: 100vh;
-     background: #fff;
+     background: rgba(0,0,0,0.4) !important;
+     color: seashell;
      
      display: flex;
      justify-content: center;
@@ -57,14 +81,14 @@
     
  }
  .navegation ul li a{
-     color:#333;
+     color:#fff;
      text-decoration: none;
      font-size: 3em;
      padding:5px 20px;
      display: inline-flex;
      font-weight: 600;
      transition: 0.5s;
-    
+     border-radius: 35px;
  }
  .navegation ul:hover li a{
      color:#0002;
@@ -72,14 +96,14 @@
  }
  .navegation ul li:hover a{
      color:#000;
-     background: #fff;
+     background: rgba(0,0,0,0.5);
   
  }
  
  .navegation ul li a::before{
      content: '';
      position: absolute;
-     top: 50%;
+     top: 40%;
      left: 40%;
      transform: translate(-50%, -50%);
      display: flex;
@@ -105,26 +129,21 @@
    
  }
  .navegation ul li:nth-child(6n+1) a:before{
-     background:#FC427B;
+     background:#3e9bdab7 !important;
   
  }
  .navegation ul li:nth-child(6n+2) a:before{
-     background:#FEA47F;
+     background:#ff4800b6 !important;
  
  }
  .navegation ul li:nth-child(6n+3) a:before{
-     background:#3B3B98;
+    background:#ff004cb6 !important;
  
  }
  .navegation ul li:nth-child(6n+4) a:before{
-     background:#55E6C1;
+    background:#338033b6 !important;
  
  }
- .navegation ul li:nth-child(6n+5) a:before{
-     background:#6D214F;
-   
- }
- 
  
  /** Img header **/
  .img-header{
@@ -141,7 +160,7 @@
  }
 
  .eldark{
-     color: #000;
+     color: #fff;
      font-size: 30px;
  }
 
@@ -149,6 +168,9 @@
      text-align: center;
      display: center;
      align-items: center;
-     margin: 100px auto;
+ }
 
+ .cardinicio{
+    background: rgba(0,0,0,0.6) !important;
+    color: seashell;
  }

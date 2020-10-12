@@ -25,7 +25,7 @@ class ControladorPlantilla{
 		$peticion = CurlRequest::nombreSendPost();
 		$res_json = json_decode($peticion,true);
 		echo '<div class="alert alert-primary" role="alert">';
-		echo "Hola ".$res_json["message"]." ".$res_json["nombre"]." ".$res_json["apellido_p"]." ".$res_json["apellido_m"],", gracias por usar el servicio :)"."</div>" ;
+		echo "Hola ".$res_json["message"]." ".$res_json["nombre"]." ".$res_json["apellido_p"]." ".$res_json["apellido_m"],", muchas gracias por usar el servicio."."</div>" ;
 	}
 
 
@@ -35,10 +35,10 @@ class ControladorPlantilla{
 		$res_json = json_decode($peticion, true);
 		if($res_json["message"] == "V"){
 			echo '<div class="alert alert-success" role="alert" >';
-			echo "El rut ".$rut." ingresado es valido :)".'</div>';
+			echo "El RUT ".$rut." es válido.".'</div>';
 		}else{
 			echo '<div class="alert alert-danger" role="alert" >';
-			echo "El rut ".$rut." ingresado es invalido :("."</div>";
+			echo "El RUT ".$rut." es inválido."."</div>";
 		}
 	}
 

@@ -50,10 +50,10 @@ function detSexo(sexoLower){
     switch(sexoLower){
         case "m":
             console.log("[Determina sexo]", "Entrada: ", sexoLower, "- Salida: Sr", )
-            return "Sr";
+            return "Sr.";
         case "f": 
             console.log("[Determina sexo]", "Entrada:", sexoLower, "- Salida: Sra")
-            return "Sra";
+            return "Sra.";
         default:
             console.log("El dato de sexo ha sido completado de forma erronea")       
     }
