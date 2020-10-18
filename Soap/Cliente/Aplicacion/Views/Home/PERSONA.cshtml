@@ -1,0 +1,55 @@
+﻿<br><br><br><br>
+<div class="container mt-5 container card cardinicio mt-5 pt-3">
+    <div class="row d-flex justify-content-center">
+        <div class="col-11 col-ms-11 col-lg-4 bg-white rounded border shadow-sm mx-1 mb-3 mb-lg-0">
+            <h3 class="text-uppercase font-weight-bold my-4">Señor/Señora</h3>
+            <hr>
+            <p class="text-justify my-2 py-3">
+                En este servicio podrás obtener un saludo personalizado según tu sexo y nombre completo.<br><br>Ingresa tus datos en los campos y luego pulsa <a class="badge badge-success">Enviar</a>.
+            </p>
+        </div>
+        <div class="col-11 col-ms-11 col-lg-7 bg-white rounded border shadow-sm mx-1">
+            <div class="row d-flex justify-content-center pt-4">
+                <div class="col-10">
+                    <form action="/Home/verpersona" method="POST">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label for="">Nombres</label>
+                                    <input type="text" class="form-control form-control-sm" placeholder="Ingresa tus nombres" name="nom">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label for="">Apellido Paterno</label>
+                                    <input type="text" class="form-control form-control-sm" placeholder="Ingresa tu apellido paterno" name="ap">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Apellido Materno</label>
+                            <input type="text" class="form-control form-control-sm" placeholder="Ingrese tu apellido materno" name="am">
+                        </div>
+                        <label>Sexo</label>
+                        <br>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" name="s" value="F" class="form-check-input mr-2">
+                            <label class="form-check-label">F</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" name="s" value="M" class="form-check-input mr-2">
+                            <label class="form-check-label">M</label>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button class="btn btn-success" type="submit">Enviar</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+
