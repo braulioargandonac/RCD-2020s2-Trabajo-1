@@ -60,7 +60,7 @@ using Aplicacion.Models;
             WriteLiteral("\r\n<!DOCTYPE html>\r\n<html lang=\"es\">\r\n");
             EndContext();
             BeginContext(77, 42, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b5459c6b7e134132a34ef6a86b90c9a5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "91580d66efdd46028fe573145e79565f", async() => {
                 BeginContext(83, 29, true);
                 WriteLiteral("\r\n    <title>Inicio</title>\r\n");
                 EndContext();
@@ -80,7 +80,7 @@ using Aplicacion.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(121, 1316, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5c04807d9aa44746af0b149d211ca75a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1f97a4f1b4c244379f25afcfffa69e93", async() => {
                 BeginContext(127, 1303, true);
                 WriteLiteral(@"
     <br><br>

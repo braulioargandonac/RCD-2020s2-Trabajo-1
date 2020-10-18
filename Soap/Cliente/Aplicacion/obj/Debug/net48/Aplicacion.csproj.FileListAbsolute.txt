@@ -148,3 +148,4 @@ C:\Visual Trabajos\Aplicacion\obj\Debug\net48\Razor\Views\Home\PERSONA.cshtml.g.
 C:\Visual Trabajos\Aplicacion\obj\Debug\net48\Razor\Views\Home\verpersona.cshtml.g.cs
 C:\Visual Trabajos\Aplicacion\obj\Debug\net48\Razor\Views\Home\integrantes.cshtml.g.cs
 C:\Visual Trabajos\Aplicacion\obj\Debug\net48\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Visual Trabajos\Aplicacion\obj\Debug\net48\UserSecretsAssemblyInfo.cs
